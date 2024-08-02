@@ -1,0 +1,23 @@
+{
+  "name": "stock-crypto-tracker",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "ts-node backend/server.ts" 
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.2.7",
+    "axios": "^1.7.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.5.2",
+    "next-redux-wrapper": "^8.1.0",
+    "react-redux": "^9.1.2",
+    "redux": "^5.0.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.0.2",
+    "typescript": "^5.5.4",
+    "ts-node": "^10.9.1"
+  }
+}
